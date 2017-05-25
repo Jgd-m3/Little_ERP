@@ -1,0 +1,13 @@
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\bin\Debug\FormLittleERP_Orders.exe.config
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\bin\Debug\FormLittleERP_Orders.exe
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\bin\Debug\FormLittleERP_Orders.pdb
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.csprojResolveAssemblyReference.cache
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.Properties.Resources.resources
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.csproj.GenerateResource.Cache
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.exe
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.pdb
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.Representation.Form_AddO.resources
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.Representation.Form_ChangesO.resources
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.Representation.Form_Orders.resources
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\bin\Debug\Oracle.DataAccess.dll
+C:\Users\M3z\Desktop\Documents\2.2_VisualStudioWS\FormLittleERP_Orders\FormLittleERP_Orders\obj\Debug\FormLittleERP_Orders.Representation.Form_InsertProdAO.resources

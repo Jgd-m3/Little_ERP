@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C39A0F66-9228-4DF9-ADE4-11CF46C94D3B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FormLittleERP_Orders</RootNamespace>
+    <AssemblyName>FormLittleERP_Orders</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=4.112.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\oraclexe\app\oracle\product\11.2.0\server\odp.net\bin\4\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\GestorAdd.cs" />
+    <Compile Include="Controller\GestorInserProd.cs" />
+    <Compile Include="Controller\GestorLogOrders.cs" />
+    <Compile Include="Controller\GestorOrders.cs" />
+    <Compile Include="Model\AddMdl.cs" />
+    <Compile Include="Model\InserProdMdl.cs" />
+    <Compile Include="Model\ModificationsMdl.cs" />
+    <Compile Include="Representation\Form_AddO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Representation\Form_AddO.Designer.cs">
+      <DependentUpon>Form_AddO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Representation\Form_ChangesO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Representation\Form_ChangesO.Designer.cs">
+      <DependentUpon>Form_ChangesO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Representation\Form_InsertProdAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Representation\Form_InsertProdAO.Designer.cs">
+      <DependentUpon>Form_InsertProdAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Representation\Form_Orders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Representation\Form_Orders.Designer.cs">
+      <DependentUpon>Form_Orders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\OrdersMdl.cs" />
+    <Compile Include="Persistence\ConnectOracle.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Representation\Form_AddO.resx">
+      <DependentUpon>Form_AddO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Representation\Form_ChangesO.resx">
+      <DependentUpon>Form_ChangesO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Representation\Form_InsertProdAO.resx">
+      <DependentUpon>Form_InsertProdAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Representation\Form_Orders.resx">
+      <DependentUpon>Form_Orders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
