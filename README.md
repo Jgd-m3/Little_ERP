@@ -1,2 +1,2 @@
 # Little_ERP
-Little ERP application
+First Part of an ERP application (MVC)
